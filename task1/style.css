@@ -17,6 +17,23 @@
     margin-left: 200px;
 }
 
+.name {
+    border: 2px solid black;
+    padding: 10px;
+
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.group {
+    display: inline-block;
+
+    border: 2px solid black;
+    padding: 5px 15px;
+
+    margin: 0;
+}
+
 .description {
     clear: both;
 
@@ -25,4 +42,27 @@
 
     padding: 20px;
     margin-top: 30px;
+}
+
+.main-content {
+    width: 700px;
+    padding: 30px;
+    border: 2px solid black; /*choose color later*/
+    border-radius: 10px;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.left-side {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-side {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
 }
