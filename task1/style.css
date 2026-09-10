@@ -2,7 +2,7 @@
     width: 700px;
     padding: 30px;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .profile-image{
@@ -66,4 +66,19 @@
     float: right;
     padding: 20px;
     box-sizing: border-box;
+}
+
+p {
+    font-size: 16px;
+    font: Courier New, monospace;
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font: Georgia, serif;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
