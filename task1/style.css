@@ -1,13 +1,16 @@
 .profile{
     width: 700px;
     padding: 30px;
-    border: 2px solid black;
+    border: 2px solid #c5e0fa;
     border-radius: 10px;
+    background-color: #c5e0fa;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .profile-image{
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     border-radius: 50%;
     object-fit: cover;
     float: left;
@@ -16,21 +19,22 @@
 }
 
 .profile-info{
+    margin-top: 50px;
     margin-left: 200px;
 }
 
 .name {
-    border: 2px solid black;
+    border: 2px solid #9dc9f5;
     padding: 10px;
 
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .group {
     display: inline-block;
 
-    border: 2px solid black;
+    border: 2px solid #9dc9f5;
     padding: 5px 15px;
 
     margin: 0;
@@ -39,8 +43,7 @@
 .description {
     clear: both;
 
-    border: 2px dotted black; /*choose color later*/
-    min-height: 120px;
+    border: 2px dashed #9dc9f5;
 
     padding: 10px;
     margin-top: 30px;
@@ -49,40 +52,81 @@
 .main-content {
     width: 700px;
     padding: 30px;
-    border: 2px solid black; /*choose color later*/
+    border: 2px solid #c5e0fa;
+    background-color: #c5e0fa;
     border-radius: 10px;
-    margin-top: 30px;
     overflow: auto;
+    margin: 30px auto;
 }
 
 .left-side {
-    width: 50%;
+    width: 45%;
     float: left;
     padding: 20px;
     box-sizing: border-box;
+    background-color: #d4eaff;
 }
 
 .right-side {
-    width: 50%;
+    width: 45%;
     float: right;
     padding: 20px;
     box-sizing: border-box;
+    background-color: #d4eaff;
 }
 
 p {
     font-size: 16px;
-    font: Courier New, monospace;
-    color: black;
+    font-family: monospace;
+    color: #0370d7;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
-    font: Georgia, serif;
+    font-family: Georgia, serif;
     color: black;
     margin-top: 0;
     margin-bottom: 10px;
 }
 body{
-    background-color: #f0f0f0;
+    background-color: #78b4f0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: #012f5b;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 16px;
+    font-family: monospace;
+    color: #003c74;
+}
+
+#links-section {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #d4eaff;
+}
+#links-section a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.link {
+    color: #063a6b;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #6a42e1;
+    text-decoration: underline;
 }
