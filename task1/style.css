@@ -1,0 +1,28 @@
+.profile{
+    width: 700px;
+    padding: 30px;
+    border-style: hidden;
+}
+
+.profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: left;
+    margin-right: 30px;
+}
+
+.profile-info{
+    margin-left: 200px;
+}
+
+.description {
+    clear: both;
+
+    border: 2px dotted black; /*choose color later*/
+    min-height: 120px;
+
+    padding: 20px;
+    margin-top: 30px;
+}
