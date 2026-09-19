@@ -7,3 +7,102 @@ body {
     text-align: center;
     color: #262a38;
 }
+
+.grades-table {
+    width: 600px;
+    margin: 20px auto 50px auto;
+
+    /* Makes cell borders connect */
+    border-collapse: collapse;
+}
+
+.grades-table th {
+    background-color: #4267b2;
+    color: white;
+}
+
+.grades-table th,
+.grades-table td {
+    border: 1px solid #333333;
+    padding: 12px;
+    text-align: center;
+}
+
+
+.grades-table tbody tr:nth-child(even) {
+    background-color: #d1e2fa;
+}
+
+.grades-table .highlight {
+    background-color: #fff3b0;
+}
+
+#feedback-heading {
+    text-align: center;
+    color: #2b3b5c;
+}
+
+.feedback-form {
+    width: 400px;
+    margin: 20px auto;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+}
+
+
+.feedback-form label {
+    font-weight: bold;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color:#2b3b5c;
+    font-size: 19px;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.radio-group label {
+    margin-right: 20px;
+}
+
+#submit-button {
+    width: 100%;
+
+    background-color: #4267b2;
+    color: white;
+
+    padding: 12px;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #29487d;
+}
