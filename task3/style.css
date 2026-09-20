@@ -104,3 +104,48 @@ a:hover {
     color: white;
     text-decoration: none;
 }
+
+.navigation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    background-color: #993131;
+
+    padding: 10px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #c85757;
+
+    z-index: 1000;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navigation-bar a {
+    text-decoration: none;
+
+    color: white;
+
+    font-weight: bold;
+
+    padding: 10px;
+}
+
+.navigation-bar a:hover {
+    color: #f4e2e2;
+    
+    background-color: #c85757;
+}
